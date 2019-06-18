@@ -1,12 +1,10 @@
 import React from 'react';
-//import logo from './logo.svg';
-//import './App.css';
-import HooksCouter from './hooks';
+import Component from './component';
 
 function App() {
   return (
     <div className="App">
-      <HooksCouter />
+     <Component />
     </div>
   );
 }
