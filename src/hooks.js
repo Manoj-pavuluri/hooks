@@ -24,7 +24,11 @@ function HooksCouter() {
         .then(json => fetchdata(json))
     },[])
 
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a46bdf2550525561f15eba7989af33de9bc2e6a3
     return (
         <div>
           <button onClick={handler}>hello {count.name}</button>
