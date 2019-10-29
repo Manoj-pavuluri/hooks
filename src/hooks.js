@@ -15,12 +15,15 @@ function HooksCouter() {
     const handler1=()=>{
         setArray([...array,"manoj","basha"])
     }
+
+    
     
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/todos')
         .then(response => response.json())
         .then(json => fetchdata(json))
     },[])
+
 
     return (
         <div>
